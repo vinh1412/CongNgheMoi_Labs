@@ -1,0 +1,103 @@
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formAdd {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input_FormAdd {
+    font-size: 16px;
+    width: 500px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.buttonAdd {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buttonDelete {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lbl {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h5 {
+    display: inline-block;
+}
+
+table {
+    margin-top: 10px;
+    width: 100%;
+}
+
+th {
+    background-color: rgb(33, 151, 198);
+    font-size: 20px;
+}
+
+td {
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
